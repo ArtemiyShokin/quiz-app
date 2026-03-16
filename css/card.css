@@ -1,3 +1,7 @@
+main {
+  /*auch hier ist die max width nicht zentriert...: */
+  max-width: 40rem;
+}
 .card {
   background: linear-gradient(to top, #f987b6, #efeaf080);
   box-shadow: rgba(114, 75, 102, 0.582) 0px 5px 15px;

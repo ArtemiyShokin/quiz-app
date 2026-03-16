@@ -5,6 +5,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /*auch hier ist die max width nicht zentriert...: */
+  max-width: 40rem;
 }
 .user-presentation {
   display: flex;
