@@ -7,7 +7,6 @@
   /*--color-dark: #070908; */
   --color-dark: #5a1a5b;
   --color-light: #efeaf0;
-  --color-light--transparent: #efeaf077;
 }
 body {
   background-color: var(--color-pink);

@@ -1,15 +1,20 @@
-.navbar-buttons {
+.navbar__buttons-list {
   background-color: var(--color-light);
+
   display: flex;
   justify-content: space-around;
+
   padding: 1rem;
   position: fixed;
   bottom: 0;
   margin-bottom: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .navbar {
-  background-color: aqua;
-  z-index: 2;
+}
+
+.navbar__navbar-button:hover {
+  background-color: var(--color-pink);
 }
