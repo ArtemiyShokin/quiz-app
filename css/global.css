@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
   list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 :root {
   --color-pink: #f987b6;
   /*--color-dark: #070908; */
   --color-dark: #5a1a5b;
   --color-light: #efeaf0;
-  --color-light--transparent: #efeaf077;
+  --color-light--transparent: #efeaf080;
 }
 body {
   background-color: var(--color-pink);

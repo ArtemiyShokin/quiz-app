@@ -3,7 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Quiz Ant</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1 class="header__header-title">ANTquiz</h1>
+    </header>
+    <nav class="navbar">
+      <ul class="navbar__buttons-list">
+        <li class="navbar__navbar-button">
+          <a href="./index.html">
+            <img
+              class="home-button"
+              src="./assets/home-white.png"
+              alt="home button"
+              height="50rem"
+          /></a>
+        </li>
+        <li class="navbar__navbar-button">
+          <a href="./bookmarks.html"
+            ><img
+              class="bookmark-button"
+              src="./assets/bookmark.png"
+              alt="bookmark button"
+              height="50rem"
+          /></a>
+        </li>
+        <li class="navbar__navbar-button">
+          <a href="./profile.html"
+            ><img
+              class="profile-button"
+              src="./assets/user-white.png"
+              alt="profile page button"
+              height="50rem"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <ul class="card-container">
+        <li class="card">
+          <h2>Which type of ant farms fungus for food?</h2>
+          <p>Leafcutter ants</p>
+          <button class="card__answerbutton">Show answer</button>
+          <button class="card__bookmark-button">
+            <img
+              src="./assets/bookmark.png"
+              alt="place a bookmark"
+              height="50rem"
+            />
+          </button>
+          <ul class="tags">
+            <li class="tags__tag">tag</li>
+            <li class="tags__tag">tag</li>
+            <li class="tags__tag">tag</li>
+          </ul>
+        </li>
+        <li class="card">
+          <h2>Do ants have lungs?</h2>
+          <p>
+            No. Ants breathe through tiny holes in their bodies called
+            spiracles.
+          </p>
+          <button class="card__answerbutton">Show answer</button>
+          <button class="card__bookmark-button">
+            <img
+              src="./assets/bookmark.png"
+              alt="place a bookmark"
+              height="50rem"
+            />
+          </button>
+          <ul class="tags">
+            <li class="tags__tag">tag</li>
+            <li class="tags__tag">tag</li>
+            <li class="tags__tag">tag</li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+  </body>
 </html>
