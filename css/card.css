@@ -1,5 +1,5 @@
 .card {
-  background-color: var(--color-light--transparent);
+  background: linear-gradient(to top, #f987b6, #efeaf080);
   box-shadow: rgba(114, 75, 102, 0.219) 0px 5px 15px;
 
   margin: 6%;
@@ -19,6 +19,11 @@
   color: var(--color-light);
   border-style: none;
   border-radius: 1rem;
+  padding: 0.5rem;
+}
+.card__answerbutton:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .card__bookmark-button {
@@ -28,9 +33,13 @@
   background: transparent;
   border-style: none;
 }
+.card__bookmark-button:hover {
+  background-color: var(--color-light);
+}
 
 .card-container {
   margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .tags {
