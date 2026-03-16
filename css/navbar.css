@@ -1,0 +1,15 @@
+.navbar-buttons {
+  background-color: var(--color-light);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: aqua;
+  z-index: 2;
+}
