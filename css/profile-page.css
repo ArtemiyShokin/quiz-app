@@ -1,0 +1,39 @@
+main {
+  margin-top: 7rem;
+  padding: 1rem;
+  /* folgendes funktioniert irgendwie nicht:  */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-presentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-presentation__profile-pic {
+  border-radius: 100%;
+  box-shadow: rgba(114, 75, 102, 0.582) 0px 5px 15px;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.counters__objects {
+  background-color: var(--color-light--transparent);
+  border-radius: 1rem;
+  height: 3rem;
+  width: 10rem;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

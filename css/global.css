@@ -15,3 +15,11 @@ body {
   color: var(--color-dark);
   margin: 0%;
 }
+
+body:has(.dark-mode:checked) {
+  --color-pink: #5a1a5b;
+  /*--color-dark: #070908; */
+  --color-dark: #44df08;
+  --color-light: #480955;
+  --color-light--transparent: #efeaf080;
+}
