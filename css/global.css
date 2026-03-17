@@ -16,6 +16,8 @@ body {
   background-color: var(--color-light--transparent);
   color: var(--color-dark);
   margin: 0%;
+  display: flex;
+  justify-content: center;
 }
 
 body:has(.dark-mode:checked) {
