@@ -54,6 +54,9 @@ main {
 
 .tags__tag {
   border-radius: 1rem;
+  padding: 0.15rem;
   min-width: 3rem;
   background-color: var(--color-pink);
+  display: flex;
+  justify-content: center;
 }
