@@ -3,7 +3,7 @@ main {
   max-width: 40rem;
 }
 .card {
-  background: linear-gradient(to top, #f987b6, #efeaf080);
+  background: linear-gradient(to bottom, #44936b, #0024388a);
   box-shadow: rgba(114, 75, 102, 0.582) 0px 5px 15px;
 
   margin-top: 1.3rem;
@@ -26,7 +26,7 @@ main {
   padding: 0.5rem;
 }
 .card__answerbutton:hover {
-  background-color: var(--color-light);
+  background-color: var(--color-pink);
   color: var(--color-dark);
 }
 
@@ -38,7 +38,7 @@ main {
   border-style: none;
 }
 .card__bookmark-button:hover {
-  background-color: var(--color-light);
+  background-color: var(--color-contrast);
 }
 
 .card-container {
@@ -55,5 +55,5 @@ main {
 .tags__tag {
   border-radius: 1rem;
   min-width: 3rem;
-  background-color: var(--color-light);
+  background-color: var(--color-pink);
 }

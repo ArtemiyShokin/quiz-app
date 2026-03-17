@@ -1,5 +1,5 @@
 header {
-  color: rgb(110, 182, 2);
+  color: var(--color-pink);
   background-color: var(--color-dark);
   box-shadow: rgba(114, 75, 102, 0.219) 0px 5px 15px;
 

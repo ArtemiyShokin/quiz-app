@@ -16,5 +16,5 @@
 }
 
 .navbar__navbar-button:hover {
-  background-color: var(--color-pink);
+  background-color: var(--color-contrast);
 }
