@@ -1,33 +1,36 @@
 main {
-  /*auch hier ist die max width nicht zentriert...: */
   max-width: 40rem;
 }
-.card {
-  background: linear-gradient(to bottom, #44936b, #0024388a);
-  box-shadow: rgba(114, 75, 102, 0.582) 0px 5px 15px;
+.card-container__card {
+  background: var(--color--first-accent);
+  /*box-shadow: rgba(114, 75, 102, 0.582) 0px 5px 15px;*/
+  border: 0.2rem;
+  border-style: solid;
+  box-shadow: var(--color-special) 13px 10px;
 
-  margin-top: 1.3rem;
+  margin: 2rem;
 
-  border-radius: 1rem;
+  border-radius: 3rem 3rem 3rem 0rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   position: relative;
 }
 
 .card__answerbutton {
-  background-color: var(--color-dark);
-  color: var(--color-light);
-  border-style: none;
+  background-color: var(--color-main);
+  color: var(--color--first-accent);
+  border-style: solid;
+  border-color: var(--color-main);
   border-radius: 1rem;
   padding: 0.5rem;
 }
 .card__answerbutton:hover {
-  background-color: var(--color-pink);
-  color: var(--color-dark);
+  background-color: var(--color--second-accent);
+  color: var(--color-main);
 }
 
 .card__bookmark-button {
@@ -56,7 +59,7 @@ main {
   border-radius: 1rem;
   padding: 0.15rem;
   min-width: 3rem;
-  background-color: var(--color-pink);
+  background-color: var(--color-special);
   display: flex;
   justify-content: center;
 }
