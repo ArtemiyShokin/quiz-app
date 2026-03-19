@@ -4,26 +4,22 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 :root {
-  --color-pink: #7adb7a;
-  /*--color-dark: #070908; */
-  --color-dark: #002438;
-  --color-light: #44936b;
-  --color-light--transparent: #cdcfae;
-  --color-accent: #27e380;
-  --color-contrast: #ff7300;
+  --color-special: #c78bb5;
+
+  --color-main: #14313f;
+  --color--first-accent: #9c9c9c;
+  --color--second-accent: #73c599;
+  --color-background: #a4aab8;
+
+  --color-contrast: #dd5e24;
 }
 body {
-  background-color: var(--color-light--transparent);
-  color: var(--color-dark);
+  background-color: var(--color-background);
+  color: var(--color-main);
   margin: 0%;
   display: flex;
   justify-content: center;
 }
 
 body:has(.dark-mode:checked) {
-  --color-pink: #5a1a5b;
-  /*--color-dark: #070908; */
-  --color-dark: #e093b3;
-  --color-light: #3b353d;
-  --color-light--transparent: #480955;
 }
