@@ -33,6 +33,14 @@ main {
   color: var(--color-main);
 }
 
+.card__answer-text {
+  display: none;
+}
+
+.card__answer-text--active {
+  display: contents;
+}
+
 .card__bookmark-button {
   position: absolute;
   top: -1rem;

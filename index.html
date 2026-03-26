@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Quiz Ant</title>
+    <script src="./JS/javascript.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -46,13 +47,14 @@
       <ul class="card-container">
         <li class="card-container__card">
           <h2>How much weight can an ant carry compared to its body weight?</h2>
-          <p hidden>Up to about 50 times its own body weight.</p>
-          <button class="card__answerbutton">Show answer</button>
-          <button class="card__bookmark-button">
+          <p  class="card__answer-text" data-js="card__answer-text">Up to about 50 times its own body weight.</p>
+          <button class="card__answerbutton" data-js="card__answerbutton">Show Answer</button>
+          <button class="card__bookmark-button" data-js="card__bookmark-button">
             <img
               src="./assets/bookmark-white.png"
               alt="place a bookmark"
               height="50rem"
+              data-js="card__bookmark-image"
             />
           </button>
           <ul class="tags">
