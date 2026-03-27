@@ -1,6 +1,3 @@
-main {
-  max-width: 40rem;
-}
 .card-container__card {
   background: var(--color--first-accent);
   /*box-shadow: rgba(114, 75, 102, 0.582) 0px 5px 15px;*/
@@ -16,7 +13,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   position: relative;
 }
 
@@ -39,6 +36,7 @@ main {
 
 .card__answer-text--active {
   display: contents;
+  content:;
 }
 
 .card__bookmark-button {
@@ -54,6 +52,7 @@ main {
 
 .card-container {
   margin-bottom: 8rem;
+  margin-top: 8rem;
 }
 
 .tags {
