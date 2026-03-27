@@ -41,9 +41,9 @@ const UserCardAnswerText = document.querySelector(
   '[data-js="card__answer-text--user]',
 );
 
-UserCardAnswerButton.addEventListener("click", () => {
-  UserCardAnswerText.classList.toggle("card__answer-text--active");
-});
+// UserCardAnswerButton.addEventListener("click", () => {
+//   UserCardAnswerText.classList.toggle("card__answer-text--active");
+// });
 //user created card bookmark buttons:
 
 const userCardBookMarkButton = document.querySelector(
