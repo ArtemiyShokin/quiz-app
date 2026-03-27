@@ -3,43 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <script src="./JS/form.js" defer></script>
+    <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__title">ANTquiz</h1>
-    </header>
-    <nav class="navbar">
-      <ul class="navbar__buttons-list">
-        <li class="navbar__navbar-button">
-          <a href="./index.html">
-            <img
-              class="navbar__home-button"
-              src="./assets/home.png"
-              alt="home button"
-              height="50rem"
-          /></a>
-        </li>
-        <li class="navbar__navbar-button">
-          <a href="./bookmarks.html"
-            ><img
-              class="navbar__bookmark-button"
-              src="./assets/bookmark-white.png"
-              alt="bookmark button"
-              height="50rem"
-          /></a>
-        </li>
-        <li class="navbar__navbar-button">
-          <a href="./profile.html"
-            ><img
-              class="navbar__profile-button"
-              src="./assets/user-white.png"
-              alt="profile page button"
-              height="50rem"
-          /></a>
-        </li>
-      </ul>
-    </nav>
+    <body>
+      <header class="header">
+        <h1 class="header__title">ANTquiz</h1>
+      </header>
+      <nav class="navbar">
+        <ul class="navbar__buttons-list">
+          <li class="navbar__navbar-button">
+            <a href="./index.html">
+              <img
+                class="navbar__home-button"
+                src="./assets/home-white.png"
+                alt="home button"
+                height="50rem"
+            /></a>
+          </li>
+          <li class="navbar__navbar-button">
+            <a href="./bookmarks.html"
+              ><img
+                class="navbar__bookmark-button"
+                src="./assets/bookmark-white.png"
+                alt="bookmark button"
+                height="50rem"
+            /></a>
+          </li>
+          <li class="navbar__navbar-button">
+            <a href="./form.html"
+              ><img
+                class="navbar__add-button"
+                src="./assets/add.png"
+                alt="add more button"
+                height="50rem"
+            /></a>
+          </li>
+          <li class="navbar__navbar-button">
+            <a href="./profile.html"
+              ><img
+                class="navbar__profile-button"
+                src="./assets/user-white.png"
+                alt="profile page button"
+                height="50rem"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="form__container" data-js="form__container">
+        <form class="form" action="" data-js="form">
+          <label for="form__question" class="form__label">Your Question:</label>
+          <textarea
+            data-js="form__question"
+            class="form__text-area"
+            name="form__question"
+            id="form__question"
+            maxlength="150"
+            required
+          ></textarea>
+          <display data-js="questionCharacters"> 150 characters left</display>
+          <label for="form__answer" class="form__label">Your Answer:</label>
+          <textarea
+            data-js="form__answer"
+            class="form__text-area"
+            name="form__answer"
+            id="form__answer"
+            maxlength="150"
+            required
+          ></textarea>
+          <display data-js="answerCharacters"> 150 characters left</display>
+          <label for="form__tag" class="form__label">Tag:</label>
+          <input
+            class="form__input"
+            name="form__tag"
+            id="form__tag"
+            type="text"
+            required
+          />
+          <button aria-label="submit" type="submit" class="form__submit-button">
+            SUBMIT
+          </button>
+        </form>
+      </main>
+    </body>
   </body>
 </html>

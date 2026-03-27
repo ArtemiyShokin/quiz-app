@@ -11,7 +11,6 @@ const answerText = document.querySelector('[data-js="card__answer-text"]');
 
 //Answer Button:
 answerButton.addEventListener("click", () => {
-  //   console.log("answer button clicked!");
   answerText.classList.toggle("card__answer-text--active");
   //   if (answerButton.textContent === "Show Answer") {
   //     answerButton.textContent = "Hide Answer";
