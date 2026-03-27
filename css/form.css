@@ -88,12 +88,3 @@ aber auch abstand von der navbar zu nehmen */
 display {
   color: blueviolet;
 }
-
-.card__answer-text {
-  display: none;
-}
-
-.card__answer-text--active {
-  display: contents;
-  content:;
-}
